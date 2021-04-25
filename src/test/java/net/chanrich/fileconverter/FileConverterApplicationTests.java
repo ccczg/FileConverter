@@ -8,6 +8,7 @@ class FileConverterApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("aaa");
     }
 
 }

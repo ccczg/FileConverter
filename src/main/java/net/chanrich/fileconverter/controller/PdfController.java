@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("pdf")
 public class PdfController {
-    @GetMapping("/test")
-    public Result test() {
+    @GetMapping("/pdfToImage")
+    public Result pdfToImage() {
         return ResultGenerator.genSuccessResult();
     }
 }
